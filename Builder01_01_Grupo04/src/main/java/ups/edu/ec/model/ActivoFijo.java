@@ -9,7 +9,15 @@ package ups.edu.ec.model;
  * @author c.idrovo
  */
 public class ActivoFijo {
-
+    private int codigo;
+    private String nombre;
+    private Double precio;
+    private String procesador;
+    private String memoriaRam;
+    private String placa;
+    private String numeroChasis;
+    private int numeroCajones;
+    private int numeroPatas; 
     /**
      * @return the codigo
      */
@@ -134,14 +142,5 @@ public class ActivoFijo {
      */
     public void setNumeroPatas(int numeroPatas) {
         this.numeroPatas = numeroPatas;
-    }
-    private int codigo;
-    private String nombre;
-    private Double precio;
-    private String procesador;
-    private String memoriaRam;
-    private String placa;
-    private String numeroChasis;
-    private int numeroCajones;
-    private int numeroPatas; 
+    }    
 }
